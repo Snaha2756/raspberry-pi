@@ -1,0 +1,15 @@
+network:
+  version: 2
+  ethernets:
+    eth0:
+      dhcp4: true
+      dhcp6: true
+      optional: true
+  wifis:
+    wlan0:
+      dhcp4: true
+      regulatory-domain: "AE"
+      access-points:
+        "1:1:3:7:9_EXT":
+          password: "768e61fdfda6b85b5f526f5ac2bb7ef33e7c3ec74a6e382aee31f4d91b3fa310"
+      optional: true
